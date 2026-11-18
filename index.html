@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario personal</title>
+    <link rel="stylesheet" href="estilo.css">
+   <script src="java.js" defer></script>
+</head>
+<body>
+    <div class="formulario" id="datosPersonales" style="display:none;">
+        <h1>Datos personales</h1>
+        <form>
+            <label>Nombre</label>
+            <input type="text" placeholder="ingrese su nombre">
+            <label>Apellido</label>
+            <input type="text" placeholder="ingrese su apellido">
+            <label>Correo</label>
+            <input type="email" placeholder="ingrese su correo">
+            <label>Telefono</label>
+            <input type="tel" placeholder="ingrese su telefono">
+            <label>Fecha de nacimiento</label>
+            <input type="date">
+            <label>Ciudad</label>
+            <select>
+                <option>Selecione una ciudad</option>
+                <option>Cali</option>
+                <option>Bogota</option>
+                <option>Medellin</option>
+                <option>Barranquilla</option>
+            </select>
+            <button type="submit">
+                Guardar
+            </button>
+        </form>
+    
+    
+    </div>
+    <div class="login" id="login">
+    <h2>Iniciar sesión</h2>
+
+    <form id="formulario">
+        <label>Usuario</label>
+        <input type="text" id="usuario" placeholder="Ingrese su usuario" required>
+
+        <label>Contraseña</label>
+        <input type="password" id="contrasena" placeholder="Ingrese su contraseña" required>
+
+        <button type="submit">Ingresar</button>
+
+        <p id="mensaje"></p>
+    </form>
+</div>
+</body>
+</htm>
